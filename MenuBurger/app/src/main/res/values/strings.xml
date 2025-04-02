@@ -12,4 +12,7 @@
 
     <string name="navigation_drawer_open">Ouvrir le menu</string>
     <string name="navigation_drawer_close">Fermer le menu</string>
+    <string name="parameters">Paramètres</string>
+    <string name="nav_parameters">Paramètres</string>
+    <string name="nav_help">Aide</string>
 </resources>
