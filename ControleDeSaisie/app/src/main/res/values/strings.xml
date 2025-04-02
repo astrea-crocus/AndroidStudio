@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Controle De Saisie</string>
+    <string name="btn_register">Inscription</string>
+    <string name="newUser_img">TODO</string>
+    <string name="newUser_confirmPassword">Confirmez votre mot de passe</string>
+    <string name="newUser_email">Adresse mail</string>
+    <string name="newUser_password">Mot de passe</string>
+    <string name="newUser_pseudo">Pseudo</string>
+    <string name="logo">TODO</string>
+</resources>

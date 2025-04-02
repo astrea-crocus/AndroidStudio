@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/material_dynamic_tertiary50"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:iconTint="#000000"
+        android:title="@string/search"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_search2"
+        android:icon="@android:drawable/ic_lock_idle_lock"
+        android:iconTint="#000000"
+        android:title="@string/search_2"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_quit"
+        android:icon="@android:drawable/ic_menu_send"
+        android:iconTint="#000000"
+        android:title="@string/quit"
+        android:visible="true"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+    <item
+        android:id="@+id/item_quit2"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:iconTint="#000000"
+        android:title="@string/quit_2"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_quit3"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:iconTint="#000000"
+        android:title="@string/quit_3"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

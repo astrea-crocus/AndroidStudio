@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bloc Note</string>
+
+    <string name="hint_bg">Taper le nom d\'une couleur de fond…</string>
+    <string name="hint_txt">Taper le nom d\'une couleur de texte…</string>
+
+    <string name="hint_blocnote">Écrivez vos pensées ici</string>
+    <string name="valider">Valider</string>
+    <string name="title_colors">Liste des couleurs possibles :</string>
+    <string name="list_colors" translatable="false">black, white, gray, lightgray, darkgray, silver,          red, yellow, green, cyan, blue, magenta,          aqua, fuchsia, lime, maroon, navy, olive, purple, teal</string>
+    <string name="grey_value">Les couleurs ne sont disponible qu\'en anglais unqiuement.           \"gray\" peut être orthographié \"grey\".</string>
+</resources>

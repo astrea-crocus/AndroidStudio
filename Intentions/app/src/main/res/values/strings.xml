@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intentions</string>
+    <string name="btn_next">Envoyer</string>
+    <string name="title1">Activité 1</string>
+    <string name="msg">Pas de données…</string>
+    <string name="title2">Activité 2</string>
+    <string name="tap_msg">Tapez votre message</string>
+</resources>

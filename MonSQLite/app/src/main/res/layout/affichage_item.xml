@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:drawable/editbox_background_normal"
+    app:cardBackgroundColor="@color/bg_card"
+    app:cardElevation="10dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="5dp"
+            android:text="id"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtNom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:text="nom"
+            android:textColor="#191919"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:text="prénom"
+            android:textColor="#191919"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtAge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:text="âge"
+            android:textColor="#191919"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
