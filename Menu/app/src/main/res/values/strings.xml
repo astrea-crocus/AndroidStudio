@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="search">Search</string>
+    <string name="quit">Quit</string>
+    <string name="quit_2">Quit 2</string>
+    <string name="quit_3">Quit 3</string>
+    <string name="search_2">Search 2</string>
+    <string name="action_bar">Action Bar</string>
+</resources>

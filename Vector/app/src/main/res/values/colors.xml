@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="red">#FFdb6574</color>
+    <color name="chocolate">#FF7c5335</color>
+
+    <color name="pink2">#FFff8692</color>
+    <color name="deep_blue">#FF1e1e5D</color>
+
+    <color name="sunset1">#FFf89581</color>
+    <color name="sunset2">#FFf67280</color>
+    <color name="sunset3">#FF355c7d</color>
+
+</resources>

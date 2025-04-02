@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Volley</string>
+    <string name="imgLogin">TODO</string>
+    <string name="logo">TODO</string>
+    <string name="btn_register">Inscription</string>
+    <string name="btn_login">Connexion</string>
+    <string name="hint_mail">Adresse mail</string>
+    <string name="hint_password">Password</string>
+    <string name="title_welcome">Bienvenue !</string>
+    <string name="loggedin_mail">Mail</string>
+    <string name="loggedin_pseudo">Pseudo</string>
+    <string name="logged_id">ID</string>
+    <string name="placeholder_mail">Placeholder mail</string>
+    <string name="placeholder_pseudo">Placeholder pseudo</string>
+    <string name="placeholder_id">Placeholder ID</string>
+    <string name="change_passwordBTN">Changer mon\n mot de passe</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_changePassword">Changer de\n mot de passe</string>
+    <string name="title_changePassword">Modification du mot de passe</string>
+    <string name="edit_change">Changer mon mot de passe</string>
+    <string name="edit_confirm">Confirmer nouveau mot de passe</string>
+    <string name="edit_newPassword">Nouveau mot de passe</string>
+    <string name="edit_currentPassword">Mot de passe en cours</string>
+    <string name="btn_newRegister">Inscription</string>
+    <string name="edit_confirmPassword">Comfirmez votre mot de passe</string>
+    <string name="edit_login">Pseudo</string>
+    <string name="edit_mail">Adresse mail</string>
+    <string name="edit_password">Mot de passe</string>
+    <string name="img_register">TODO</string>
+</resources>

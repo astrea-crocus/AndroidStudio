@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="hint_bg">Type down a color name for the background…</string>
+    <string name="hint_txt">Type down a color name for the text…</string>
+    <string name="hint_blocnote">Write down your thoughts here</string>
+    <string name="valider">Validate</string>
+    <string name="title_colors">Available color names :</string>
+    <string name="grey_value">Color names are available only in english.           \"gray\" may be spelled as \"grey\"</string>
+</resources>

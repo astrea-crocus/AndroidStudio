@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">handlers</string>
+    <string name="nouvelle_activit">Nouvelle Activité</string>
+    <string name="activit_principale">Activité principale</string>
+    <string name="retour">Retour</string>
+    <string name="empty" />
+    <string name="btn_unspec_txt">.</string>
+</resources>
