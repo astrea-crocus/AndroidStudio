@@ -49,17 +49,20 @@ public class ChangePasswordActivity extends AppCompatActivity {
 
         // Validate input fields
         if (oldPassword.isEmpty() || newPassword.isEmpty() || confirmPassword.isEmpty()) {
-            Toast.makeText(ChangePasswordActivity.this, "Please fill all the fields", Toast.LENGTH_SHORT).show();
+            Toast.makeText(ChangePasswordActivity.this,
+                    "Please fill all the fields", Toast.LENGTH_SHORT).show();
             return;
         }
 
         if (!newPassword.equals(confirmPassword)) {
-            Toast.makeText(ChangePasswordActivity.this, "New passwords do not match", Toast.LENGTH_SHORT).show();
+            Toast.makeText(ChangePasswordActivity.this,
+                    "New passwords do not match", Toast.LENGTH_SHORT).show();
             return;
         }
 
         // Send the new password to the server
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://192.168.1.231/myVolley/change_password.php",
+        StringRequest stringRequest = new StringRequest(Request.Method.POST,
+                "http://192.168.1.231/myVolley/change_password.php",
                 response -> {
                     Log.d("Response", response);  // Log the entire response
                     try {
@@ -68,18 +71,22 @@ public class ChangePasswordActivity extends AppCompatActivity {
                         String message = jsonObject.getString("message");
 
                         if (status.equals("success")) {
-                            Toast.makeText(ChangePasswordActivity.this, message, Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ChangePasswordActivity.this,
+                                    message, Toast.LENGTH_SHORT).show();
                             // Optionally, you can navigate away or update the UI.
                         } else {
-                            Toast.makeText(ChangePasswordActivity.this, "Error: " + message, Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ChangePasswordActivity.this,
+                                    "Error: " + message, Toast.LENGTH_SHORT).show();
                         }
                     } catch (JSONException e) {
                         e.printStackTrace();
-                        Toast.makeText(ChangePasswordActivity.this, "JSON Error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ChangePasswordActivity.this,
+                                "JSON Error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 },
                 error -> {
-                    Toast.makeText(ChangePasswordActivity.this, "Request failed: " + error.getMessage(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ChangePasswordActivity.this,
+                            "Request failed: " + error.getMessage(), Toast.LENGTH_SHORT).show();
                 }
         ) {
             @Override
