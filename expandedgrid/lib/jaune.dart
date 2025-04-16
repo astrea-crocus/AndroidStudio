@@ -66,9 +66,8 @@ class MyVideo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: SizedBox(
-          height: MediaQuery.of(context).size.height * 0.8,
-          width: MediaQuery.of(context).size.width * 0.8,
+        child: Container(
+          margin: EdgeInsets.all(50),
           child: Chewie(controller: chewieController),
         ),
       ),
