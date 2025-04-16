@@ -28,6 +28,8 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+
+  animate_do: ^4.2.0
   expanded_grid: ^1.0.0
   flutter:
     sdk: flutter
@@ -36,6 +38,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   animator: ^3.3.0
+  chewie: ^1.11.1
+  video_player: ^2.9.5
+  image_gradient: ^0.0.2
 
 dev_dependencies:
   flutter_test:
@@ -53,6 +58,23 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - image/img20250116194405.jpg
+    - image/animals/axolotl.png
+    - image/animals/cerf.png
+    - image/animals/chat.png
+    - image/animals/chien.png
+    - image/animals/elephant.png
+    - image/animals/girafe.png
+    - image/animals/hamster.png
+    - image/animals/hibou.png
+    - image/animals/koala.png
+    - image/animals/lapin.png
+    - image/animals/lion.png
+    - image/animals/serpent.png
+    - image/animals/singe.png
+    - image/animals/tortue.png
+    - image/animals/zebre.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
